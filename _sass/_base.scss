@@ -13,4 +13,7 @@ main {
 
 .website-section {
 	padding: 60px 0;
+	&:nth-of-type(odd) {
+		background-color: blue($color: #000000);
+	}
 }

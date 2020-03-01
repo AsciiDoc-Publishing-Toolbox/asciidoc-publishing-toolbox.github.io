@@ -3,50 +3,28 @@ layout: home
 title: Home
 ---
 
-<section id="about" class="website-section row justify-content-center">
-    <div class="col-lg-8">
+<!-- <section id="about" class="website-section row justify-content-center">
+    <div class="container">
         <header class="section-header">
-            <h1>About Us</h1>
-            <p>Get insights on who we are.</p>
+            <h1>Features</h1>
+            <p>What ADPT can do.</p>
         </header>
 
         <section>
-            <p>This team was born in 2018 to take a group exam and it's made of five
-                collegues and <em>friends</em> that saw in that exam the oportunity to start working
-                together as a real group. Now we are ready to take any challenge and give life
-                to our ideas.</p>
-
-            <p><em>"FSC"</em> stands for <em>"Five Students of Computer Science"</em>: we are five
-                Bachelor's Students of Computer Science and Digital Communication at the
-                University of Bari "Aldo Moro".</p>
-            <p>The team is composed by:</p>
-            <ul>
-                <li>Alessandro <em>Annese</em></li>
-                <li>Davide <em>De Salvo</em></li>
-                <li>Andrea <em>Esposito</em></li>
-                <li>Graziano <em>Montanaro</em></li>
-                <li>Regina <em>Zaccaria</em></li>
-            </ul>
         </section>
     </div>
-</section>
-<section id="projects" class="website-section row justify-content-center">
-    <div class="col-lg-8">
-        <header class="section-header">
-            <h1>Our Projects</h1>
-            <p>This is a list of our projects.</p>
+</section> -->
+<section id="install" class="website-section row justify-content-center">
+    <div class="row justify-content-center">
+        <header class="col-12 section-header">
+            <h1>Installation</h1>
+            <p>How to install ADPT</p>
         </header>
-
-        <section>
-            <p>Here is a list of all of our public repositories (excluding the repository
-                from which this site is generated).</p>
-            <ul>
-                {% for repository in site.github.public_repositories %}
-                    {% if repository.name != "F-S-C.github.io"%}
-                        <li><a href="{{ repository.html_url }}" target="_blank">{{ repository.name }}</a>: {{ repository.description }}</li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </section>
+        <p class="col-12 text-center">
+            Installing ADPT is as easy as running a command. It's published as a
+            <a href="https://rubygems.org/gems/asciidoc_publishing_toolbox" target="_blank" rel="noopener noreferrer">Ruby Gem</a>,
+            so just make sure you have Ruby installed and run
+        </p>
+        <pre class="bg-light rounded border py-3 px-4 highlight text-center"><code><span class="nb">gem install </span>asciidoc_publishing_toolbox</code></pre>
     </div>
 </section>

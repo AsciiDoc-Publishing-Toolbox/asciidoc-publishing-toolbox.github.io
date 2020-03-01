@@ -59,6 +59,7 @@
     </head>
 
     <body data-offset="200" data-spy="scroll" data-target="#mainNavbarContainer">
+        <a class="btn btn-primary position-fixed sr-only sr-only-focusable" href="#main-content" style="z-index: 1090;" tabindex="0">Skip to content</a>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="mainNavbarContainer">
             <div class="container">
                 <a class="navbar-brand" href="#">{{site.title}}</a>
@@ -72,17 +73,14 @@
                             <a class="nav-link" href="#splash">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
+                            <a class="nav-link" href="#install">Installation</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <main class="container-flex" role="main">
+        <main class="container-flex" id="main-content">
             {{ content }}
         </main>
 

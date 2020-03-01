@@ -19,3 +19,14 @@
 		font-size: 24px;
 	}
 }
+
+a[target="_blank"] {
+	&::after {
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		content: "\f35d";
+		vertical-align: super;
+		font-size: 70%;
+		margin-left: 3px;
+	}
+}

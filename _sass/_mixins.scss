@@ -5,3 +5,7 @@
 	background: -o-linear-gradient($direction, $color-stops);
 	background: linear-gradient($direction, $color-stops);
 }
+
+@mixin primary-gradient() {
+	@include gradient(to top right, #d34231, #ed3770);
+}

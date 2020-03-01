@@ -23,9 +23,9 @@ url: "https://espositoandrea.github.io/adpt.github.io" # the base hostname & pro
 github_username:  espositoandrea
 
 author:
-  - name: Andrea Esposito
-    github: espositoandrea
-    website: "https://espositoandrea.github.io/"
+  name: Andrea Esposito
+  github: espositoandrea
+  website: "https://espositoandrea.github.io/"
 
 # github: [metadata]
 repository: espositoandrea/adpt.github.io
