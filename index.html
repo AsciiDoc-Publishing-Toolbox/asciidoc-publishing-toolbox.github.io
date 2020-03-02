@@ -36,9 +36,46 @@ title: Home
         </header>
         <p class="col-12 text-center">
             Installing ADPT is as easy as running a command. It's published as a
-            <a href="https://rubygems.org/gems/asciidoc_publishing_toolbox" target="_blank" rel="noopener noreferrer">Ruby Gem</a>,
-            so just make sure you have Ruby installed and run
+            <a href="https://rubygems.org/gems/asciidoc_publishing_toolbox" target="_blank"
+                rel="noopener noreferrer">Ruby Gem</a>,
+            so just make sure you have <a href="https://www.ruby-lang.org/it/" target="_blank"
+                rel="noopener noreferrer">Ruby</a> installed and run
         </p>
-        <pre class="bg-light rounded border py-3 px-4 highlight text-center"><code><span class="nb">gem install </span>asciidoc_publishing_toolbox</code></pre>
+        <pre
+            class="bg-light rounded border py-3 px-4 highlight text-center"><code><span class="nb">gem install </span>asciidoc_publishing_toolbox</code></pre>
+    </div>
+</section>
+<section id="how-to" class="website-section row justify-content-center">
+    <div class="container row justify-content-center">
+        <header class="col-12 section-header">
+            <h1>How To</h1>
+            <p>How to use ADPT</p>
+        </header>
+        <p class="col-12 text-center">
+            Using ADPT is really simple. You need to know only three commands:
+        </p>
+        <dl>
+            <dt>Initialize a new document</dt>
+            <dd>
+                <pre class="bg-light rounded border py-3 px-4 highlight
+                text-center"><code><span class="nb">adpt</span>init</code></pre>
+            </dd>
+            <dt>Add a new chapter</dt>
+            <dd>
+                <pre class="bg-light rounded border py-3 px-4 highlight
+                    text-center"><code><span class="nb">adpt </span>chap -t "Chapter Title"</code></pre>
+            </dd>
+            <dt>Build your document</dt>
+            <dd>
+                <pre
+                    class="bg-light rounded border py-3 px-4 highlight text-center"><code><span class="nb">adpt </span>build</code></pre>
+            </dd>
+        </dl>
+        <p class="col-12 text-center">
+            You can edit the document files in the folder <code>src</code> that
+            will be created when you run <code>adpt init</code>. The folder
+            <code>out</code> will be created when you build the document for the
+            first time and will contain the builded document.
+        </p>
     </div>
 </section>
